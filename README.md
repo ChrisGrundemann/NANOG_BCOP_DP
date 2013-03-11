@@ -7,8 +7,8 @@ This repository is a test, if this versioning system works for BCOP document man
 
 More on the BCOP project: http://www.ipbcop.org/
 
-NANOG - North American Network Operators Group
-BCOP - Best Current Operational Practice
+ * NANOG - North American Network Operators Group
+ * BCOP - Best Current Operational Practice
 
 The document itself contains more details on BCOP and its purpose.
 
