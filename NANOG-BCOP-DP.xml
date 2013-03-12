@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+   <para>NANOG-BCOP-DP</para>
+   <para>
+      <anchor id="_GoBack"/>NANOG-BCOP-DP</para>
+   <para>NANOG Regional Best Current Operational Practices Development Process</para>
+   <para>draft 021 – 2 February5 March 2013</para>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para/>
+   <para>Table  - Version History</para>
+   <informaltable frame="all">
+      <tgroup cols="4"><tbody><row>
+            <entry>
+               <para>Version</para>
+            </entry>
+            <entry>
+               <para>Date</para>
+            </entry>
+            <entry>
+               <para>Author</para>
+            </entry>
+            <entry>
+               <para>Description</para>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>D01</para>
+            </entry>
+            <entry>
+               <para>26 Feb 2013</para>
+            </entry>
+            <entry>
+               <para>Chris Grundemann</para>
+            </entry>
+            <entry>
+               <para>Initial Draft</para>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para>D02</para>
+            </entry>
+            <entry>
+               <para>5 Mar 2013</para>
+            </entry>
+            <entry>
+               <para>Chris Grundemann</para>
+            </entry>
+            <entry>
+               <para>Revised based on community feedback.</para>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+         </row>
+         <row>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+            <entry>
+               <para/>
+            </entry>
+         </row></tbody></tgroup>
+   </informaltable>
+   <para/>
+   <para/>
+   <sect1>
+      <title>
+         <anchor id="_Ref221421697"/>NANOG BCOP Development Process Fundamentals</title>
+      <sect2>
+         <title>Purpose</title>
+         <para>This document describes the North American Network Operators Group (NANOG) regional Best Current Operational Practice (BCOP) Development Process (DP). The NANOG-BCOP-DP (pronounced na-nog-b-c-o-p-d-p) is the process by which current best practices for the operation of the Internet, and connected networks, are documented by the NANOG community. These NANOG BCOPs are developed and documented in an open, transparent, bottom-up, and on-going manner designed to yield functional documentation that is accessible to any and all.</para>
+         <para>The NANOG-BCOP-DP requires participation from the NANOG community, and encourages all members of the community to submit appeals for new BCOPs and/or updates to existing BCOPs. The BCOP-DP is designed to bring forth clear, technically sound, and useful network engineering best practices, written for engineers, by engineers. To accomplish this goal, the NANOG-BCOP-DP charges the Board-appointed NANOG BCOP Steering Committee (BCOP-SC) as the primary facilitators of the BCOP-DP with appropriate checks and balances on its performance in that role.</para>
+         <para>Section NANOG BCOP Development Process Fundamentals of this document provides the underlying fundamentals upon which the NANOG-BCOP-DP rests (including its purpose, scope, principles, philosophy, and criteria for BCOP documents) and Section The NANOG BCOP Development Process (NANOG-BCOP-DP) describes the specific BCOP Development Process used for both creating and updating NANOG regional BCOPs.</para>
+      </sect2>
+      <sect2>
+         <title>Philosophy</title>
+         <para>All technology is and will be used and developed in a variety of ways with competing interests and agendas driving it forward.  The Internet is the world’s first, true global utility and in the spirit of the open standards surrounding its evolution, the Global Network Engineering Community (GNEC) has requested multiple times for there to be a synthesized documentation process to capture GNEC driven “best practices”.  These GNEC driven BCOPs are an open, transparent, bottom-up, on-going effort to help spread the un-biased working knowledge of how the Internet and connected networks work, at any given time, in the best possible way.  The GNEC’s philosophy towards this BCOP-DP can be further described in the following way:</para>
+         <sect3>
+            <title>Free from Organizational Agendas</title>
+            <para>All BCOPs shall be sourced from the network engineering community and developed in an open, transparent, bottom-up approach.  Given this philosophy, the idea of “Best Practices” shall encompass objective input from the community at large with a “best effort” mentality to ensure proper documentation.  Conceptually, all BCOPs should not be biased or tainted by organization specific agendas but rather should reflect individual operator experiences.</para>
+         </sect3>
+         <sect3>
+            <title>Communal Knowledge available to all</title>
+            <para>The entire BCOP effort shall be made available to all everyone at all times.  An open, transparent, bottom up, on-going approach applies to all efforts in the BCOP arena in order to yield documentation for any and all to help advance the Internet’s development.</para>
+         </sect3>
+         <sect3>
+            <title>Advancement of the Internet to all reaches of the world (and beyond)</title>
+            <para>The Internet is global and should be made available to all.  In this spirit, the GNEC is seeking, thru this BCOP-DP, to help advance that goal. These BCOPs will be driven by the network engineering community and are therefore for the network engineering community, and anyone else who wishes to learn more about BCOPs.  BCOPs will contribute to the common knowledge base for all facets of the evolving Internet everywhere in the world.</para>
+            <para>To facilitate a common context and common language in the development of BCOPs, and to leverage existing regional relationships, the NANOG-BCOP-DP will serve the NANOG regional community directly, and the GNEC less directly, through the Global-BCOP-DP.</para>
+         </sect3>
+      </sect2>
+      <sect2>
+         <title>Scope</title>
+         <para>BCOPs developed through the NANOG-BCOP-DP are community-regulated documents that provide synthesized knowledge of current, real-world network engineering best practices. BCOPs are driven and catalyzed by the network engineering community. Thru the efforts of our community, the BCOPs are, and will always be, publically available. BCOPs developed through the BCOP-DP are living documents and will always be subject to scrutiny and on-going development as technologies change and as new knowledge is ascertained from the network engineering community.</para>
+         <para>BCOPs are not intended to be binding rules on how operators configure or operate their network.  BCOPs are intended to provide good advice about operational practices that is useful for the majority80%<note>
+               <remark>the majority vs. 80% (80% sounds specific)</remark>
+            </note>
+            <note>
+               <remark/>
+            </note> of cases.  Additionally, if there are some small percentage of corner cases were the standard advicethis does not apply, or some other practice is recommended, that should also be documented.  Documentation of competing approaches and their trade-offs is also acceptable.</para>
+      </sect2>
+      <sect2>
+         <title>Principles</title>
+         <para>All BCOPs are developed under the constraint of four basic principles: Open, transparent, bottom-up, and on-going.</para>
+         <sect3>
+            <title>Open</title>
+            <para>All policies are developed in an open forum in which anyone may participate. There are no qualifications for participation. NANOGs BCOP discussions are conducted in an open, publicly accessible forum that consists of a NANOG BCOP Mail List (BCOP-ML) and BCOP Meetings (BCOP-M). Anyone may subscribe to the BCOP-ML and anyone may attend a BCOP-M via the Internet or in person.</para>
+         </sect3>
+         <sect3>
+            <title>Transparent</title>
+            <para>All aspects of the NANOG-BCOP-DP are documented and publicly available via the BCOP website. The BCOP-ML is archived. The proceedings of each BCOP-M are published. All BCOPs are available for viewing and download. </para>
+         </sect3>
+         <sect3>
+            <title>Bottom Up</title>
+            <para>The network engineering community develops and documents all BCOPs from the bottom up. Individuals in the community initiate BCOPs throughu Appeals to the BCOP-ML; BCOP participants will work thru various stages of development that will yield an un-biased, community authored BCOP to be available to all those interested.</para>
+         </sect3>
+         <sect3>
+            <title>On-Going</title>
+            <para>All BCOPs, as with all things evolving, will be subject to scrutiny into perpetuity.  This allows for revisions to occur that will follow the BCOP update process (documented in Section [X]). This process will ensure that all BCOPs will always truly reflect the current best practices.</para>
+         </sect3>
+      </sect2>
+      <sect2>
+         <title>Criteria for BCOP Publication</title>
+         <para>BCOPs must meet two strict criteria before publication: First, they must be clear and technically sound. Second, they must be developed through open and transparent processes.</para>
+         <sect3>
+            <title>Clear and Technically Sound</title>
+            <para>It is the responsibility of the Steering Committee (NANOG-BCOP-SC) to ensure that all BCOPs are both clear and technically sound, before recommending their publication. This serves to ensure that all published BCOPs are relevant and useful to the network engineering community.</para>
+            <para>The NANOG-BCOP-SC relies heavily on the wisdom and experience of then entire community when determining relevancy and usefulness. Community consensus is the primary indication that a BCOP is clear and technically sound.</para>
+         </sect3>
+         <sect3>
+            <title>Developed through Open and Transparent Processes</title>
+            <para>It is the responsibility of the NANOG Board of Directors to ensure that all BCOPs and BCOP updates are developed via open and transparent processes that provide for participation by all. There are no requirements for participation other than adherence to the guidelines of behavior and decorum, and anyone interested in following the process may subscribe to the BCOP-ML or may participate without charge in BCOP-Ms via in person or remote participation methods. By publishing a BCOP, or an update to a BCOP, the NANOG Board of Directors is declaring that BCOP was developed following the PhilosphyPhilosophy and Principles described in this document.</para>
+            <para>The BCOP Development Process itself may only be changed by the NANOG Board of Directors after a public consultation period to consider the proposed changes.</para>
+         </sect3>
+      </sect2>
+      <sect2>
+         <title>Terms</title>
+         <para>NANOG BCOP Steering Committee (NA-BCOP-SC) - Five member committee tasked with reviewing and eventually publishing or dismissing all regional BCOPs. Further tasked with working with the other regional BCOP working groups to publish global BCOPs</para>
+         <para>Subject Matter Expert (SME) - Authors and contributors to BCOPs</para>
+         <para>Shepherd - Editor and promoteor of BCOPs, does not need to be a member of the NA-BCOP-SC</para>
+         <para>Global Network Engineering Community (GNEC) - Global Network Engineering Community</para>
+         <para>Best Current Operational Practice (BCOP) - A document that reflects an aspect of Internet Engineering (e.g., Sub-netting), is sought after by the GNEC, is worked on by the GNEC, and is ultimately published on the BCOP website (TBD).</para>
+         <para>NANOG-BCOP-DP - The Development Process, see section 2 of this document, whichthat the GNEC NANOG Community has adopted to create and publish all BCOPs.</para>
+         <para>MORE NEEDED HERE</para>
+         <para>
+            <anchor id="_Ref221421910"/>The NANOG BCOP Development Process (NANOG-BCOP-DP) </para>
+         <para>This section provides the details of the NANOG Best Current Operational Practices Development Process (BCOP-DP).</para>
+      </sect2>
+      <sect2>
+         <title>Appeal</title>
+         <para>The BCOP-DP begins with the identification of a need for documentation of a BCOP or the revision or elimination retirement of an existing BCOP. This need is usually determined by a change in technology, a change in the operational environment of the Internet, or the result of the experience of the implementation of an existing BCOP.</para>
+         <para> Any member of the NANOG community can make an Aappeal, this is typically but not always, the BCOPs shepherd. Community members who submit a BCOP Appeal are not however required to work on that BCOP further.</para>
+         <para>New Appeals take the form of a question (e.g. What is the BCOP for time synchronization in metro-Ethernet networks?) submitted to the NANOG community on the bcop@nanog.org mailing list following a simplethe BCOP Appeal template (TBD).</para>
+         <para>Update Appeals take the form of a problem statement and are similarly submitted, using the BCOP Update template. One possible result of an Update Appeal is retirement of the BCOP in question.</para>
+         <para>Appeals are then discussed on the bcop@nanog.org mailing list and sometimes at NANOG meetings.</para>
+         <para>A public repository of open BCOP Appeals will be maintained to facilitate their development after being submitted.</para>
+      </sect2>
+      <sect2>
+         <title>Draft BCOP</title>
+         <para>BCOP Appeals that meet the following requirements are selected by the NA-BCOP-SC as Draft BCOPs:</para>
+         <orderedlist>
+            <listitem>
+               <para>Significant community interest</para>
+            </listitem>
+            <listitem>
+               <para>Not overly broad or overly specific</para>
+            </listitem>
+            <listitem>
+               <para>Relevant to the NANOG community</para>
+            </listitem>
+            <listitem>
+               <para>Un-biased and vVendor-neutral</para>
+            </listitem>
+            <listitem>
+               <para>Has a willing Shepherd</para>
+            </listitem>
+         </orderedlist>
+         <para>Once an Appeal is selected as a Draft BCOP, the shepherds must draft an outline for the Draft BCOP following the Draft BCOP template. Shepherds must then recruit SMEs to contribute to the content of the Draft BCOP. Shepherds may act as SMEs themselves when appropriate. </para>
+         <para>Throughout the development of each BCOP, its text will be discussed on the bcop@nanog.org mailing list and sometimes at NANOG meetings. The NA-BCOP-SC oversees this process, providing guidance as needed, replacing Shepherds as needed.</para>
+      </sect2>
+      <sect2>
+         <title>Candidate BCOP</title>
+         <para> Draft BCOPs that meet the following requirements are selected by the NA-BCOP-SC for publication consideration:</para>
+         <orderedlist>
+            <listitem>
+               <para>Full and complete content that answers the original appeal</para>
+            </listitem>
+            <listitem>
+               <para>All substantive objections raised on the mailing list or in meetings addressed (rough consensus)</para>
+            </listitem>
+            <listitem>
+               <para>Properly scoped, un-biased and vender-neutral</para>
+            </listitem>
+         </orderedlist>
+         <para> The text of all Candidate BCOPs must be posted to the bcop@nanog.org mailing list at least two weeks prior to the next NANOG meeting. The posted BCOP text must be presented for discussion at the next NANOG meeting.</para>
+      </sect2>
+      <sect2>
+         <title>BCOP</title>
+         <para>Candidate BCOPs that meet the following requirements are recommended by the NA-BCOP-SC for publication:</para>
+         <orderedlist>
+            <listitem>
+               <para>Rough consensus on the mailing list and at the meeting with no substantive objections</para>
+            </listitem>
+            <listitem>
+               <para>Complete a minimum two (2) week last call (posted to bcop@ and bcop-announce@ [main NANOG list?] lists for final comment) with no substantive objections (silence is support in last call)</para>
+            </listitem>
+         </orderedlist>
+         <para>Once recommended by the NA-BCOP-SC, the NANOG Board of Dirctors must then verify that the NANOG BCOP Development Process was followed before approving the BCOP for publication. BCOPs are published in a well-known publically available repository for use by any and all.</para>
+      </sect2>
+      <sect2>
+         <title>BCOP Updates</title>
+         <para>An Update Aappeal can also be made at any time to update or retire any existing BCOP. BCOP update appeals are initiated by submitting the 'BCOP Update' template to the bcop@nanog.org mailing list.</para>
+         <para>UBCOP update Aappeals then follow basically the same BCOP Development Pprocess outlined above and result in an existing BCOP being updated or retired, but only needed changes are made.</para>
+         <para>More detail here later…</para>
+         <para/>
+         <para/>
+      </sect2>
+   </sect1>
+   <para>2 February 2013                Page 7 of 7        </para>
+</article>
