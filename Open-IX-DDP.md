@@ -1,8 +1,8 @@
 # Open-IX Document Development Process
 ### Table of Contents:
-- [Open-IX Document Development Process Fundamentals](##1.-open-ix-document-development-process-fundamentals)
-- [The Open-IX Document Development Process (OIX DDP)](##2.-the-open-ix-document-development-process-(oix-ddp))
-- [Intellectual Property Rights (IPR) Policy](##3.-intellectual-property-rights-(ipr)-policy)
+- [Open-IX Document Development Process Fundamentals](#1-open-ix-document-development-process-fundamentals)
+- [The Open-IX Document Development Process (OIX DDP)](#2-the-open-ix-document-development-process-oix-ddp)
+- [Intellectual Property Rights (IPR) Policy](#3-intellectual-property-rights-ipr-policy)
 
 ## 1. Open-IX Document Development Process Fundamentals
 
